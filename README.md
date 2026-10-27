@@ -1,20 +1,36 @@
-# Speaker Spotlight — Simple, No Images
+# Speaker Spotlight
 
-A very basic React + Vite page with three speaker cards and no photos or illustrations.
+A React website for Circle City Dev Night. It shows three speakers and their talk topics.
 
-## Run
+## How to Run
 
-Open this folder in VS Code, then run:
+Open the project in VS Code.
 
-```bash
+Run these commands:
+
 npm install
 npm run dev
-```
+
+Open the link shown in the terminal.
+
+## Files
+
+- App.jsx - Main page
+- SpeakerCard.jsx - Speaker information
+- TopicList.jsx - Talk topics
+- CSS files - Website design
 
 ## Deployment
 
-Push the project files to GitHub, replace the GitHub homepage URL in `src/App.jsx` with your actual repository address, and import the repository into Netlify. The included `netlify.toml` has the build settings.
+Upload the project to GitHub and connect it to Netlify.
 
-## Rubric limitations
+Build command: npm run build
 
-This version intentionally has no headshots, one-sentence summaries, two topics per speaker, and no specific venue. It misses assignment requirements, so a particular grade cannot be guaranteed.
+Publish folder: dist
+
+## Made With
+
+- React
+- Vite
+- JavaScript
+- CSS
